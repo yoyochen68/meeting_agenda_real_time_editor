@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/yoyochen/Desktop/Term4/C/final/MeetingAgenda/wwwroot/assets/index-cb03ef28.css",
+      "PackagePath": "staticwebassets/assets/index-cb03ef28.css"
+    },
+    {
+      "Id": "/Users/yoyochen/Desktop/Term4/C/final/MeetingAgenda/wwwroot/assets/index-eae12860.js",
+      "PackagePath": "staticwebassets/assets/index-eae12860.js"
+    },
+    {
+      "Id": "/Users/yoyochen/Desktop/Term4/C/final/MeetingAgenda/wwwroot/deleteicon.png",
+      "PackagePath": "staticwebassets/deleteicon.png"
+    },
+    {
+      "Id": "/Users/yoyochen/Desktop/Term4/C/final/MeetingAgenda/wwwroot/editicon.png",
+      "PackagePath": "staticwebassets/editicon.png"
+    },
+    {
+      "Id": "/Users/yoyochen/Desktop/Term4/C/final/MeetingAgenda/wwwroot/index.html",
+      "PackagePath": "staticwebassets/index.html"
+    },
+    {
+      "Id": "/Users/yoyochen/Desktop/Term4/C/final/MeetingAgenda/wwwroot/vite.svg",
+      "PackagePath": "staticwebassets/vite.svg"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.MeetingAgenda.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.MeetingAgenda.props",
+      "PackagePath": "build\\MeetingAgenda.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.MeetingAgenda.props",
+      "PackagePath": "buildMultiTargeting\\MeetingAgenda.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.MeetingAgenda.props",
+      "PackagePath": "buildTransitive\\MeetingAgenda.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
