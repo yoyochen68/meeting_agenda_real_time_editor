@@ -4,19 +4,14 @@ using MeetingAgenda.Controllers;
 using Microsoft.AspNetCore.OpenApi;
 using MeetingAgenda.Hubs;
 
-// DotNetEnv.Env.Load();
+DotNetEnv.Env.Load();
 
 var builder = WebApplication.CreateBuilder(args);
 
 var port = Environment.GetEnvironmentVariable("PORT") ?? "8081";
 builder.WebHost.UseUrls($"http://0.0.0.0:{port}");
 
-// Add services to the container.
-
-var connectionString = "Host=containers-us-west-39.railway.app:6378;Database=railway;Username=postgres;Password=3CwwQ13fh708TbWSf6DW";
-
-// var connectionString = "Host=127.0.0.1;Database=meetingAgenda;Username=yoyochen;Password=01222018";
-// var connectionString = Environment.GetEnvironmentVariable("DATABASE_CONNECTION_STRING");
+var connectionString = Environment.GetEnvironmentVariable("DATABASE_CONNECTION_STRING");
 
 builder.Services.AddDbContext<DatabaseContext>(
     opt =>
